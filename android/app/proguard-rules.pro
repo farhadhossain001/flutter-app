@@ -24,3 +24,4 @@
 -dontwarn androidx.window.extensions.**
 -dontwarn androidx.window.sidecar.**
 -dontwarn javax.annotation.**
+-dontwarn com.google.android.play.core.**
