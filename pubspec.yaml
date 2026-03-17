@@ -11,8 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  # WebView package for loading web content
-  webview_flutter: ^4.13.0
+  # WebView package and platform-specific implementations
+  webview_flutter: ^4.8.0
+  webview_flutter_android: ^3.15.0
+  webview_flutter_wkwebview: ^3.11.0
+  
   # Connectivity check for network status
   connectivity_plus: ^6.1.4
 
@@ -20,6 +23,15 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
+  # For generating app icons
+  flutter_launcher_icons: ^0.13.1
+
+# ── App Icon Configuration ─────────────────────────────────────
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21 # Matching our build.gradle
 
 flutter:
   uses-material-design: true
