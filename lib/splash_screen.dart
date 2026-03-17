@@ -179,13 +179,12 @@ class _SplashScreenState extends State<SplashScreen>
                               width: 2,
                             ),
                           ),
-                          child: const Center(
-                            child: Icon(
-                              Icons.menu_book_rounded,
-                              size: 64,
-                              color: Colors.white,
-                            ),
+                          child: ClipOval(
+                          child: Image.asset(
+                            AppConfig.splashImagePath,
+                            fit: BoxFit.cover,
                           ),
+                        ),
                         ),
                       ),
                     ),
