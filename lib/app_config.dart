@@ -24,7 +24,7 @@ class AppConfig {
 
   // ── Splash Screen ────────────────────────────────────────────
   static const int splashDurationMs = 2500;
-  static const String splashImagePath = 'assets/images/splash_logo.png';
+  static const String splashImagePath = 'assets/images/app_icon.png';
 
   // ── WebView Settings ─────────────────────────────────────────
   static const bool enableJavaScript = true;
