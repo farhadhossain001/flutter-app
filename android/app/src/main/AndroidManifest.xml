@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.noorquran.app">
     <!-- Internet permission required for WebView -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <!-- Network state permission for connectivity checks -->
